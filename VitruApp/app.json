@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "VitruApp",
+    "slug": "VitruApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "vitru.app",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "featuresFlags" : {
+        "staticGallery" : false
+      },
+      "api" : {
+        "authKey": "c2VtcmFib25hb3ZhbGVuYWRh=",
+        "screen" : {
+          "add": "https://dpaiwrzkhciqgeeqawhsqi7sgm0ognoh.lambda-url.us-east-1.on.aws",
+          "requestSessionToken": "https://io5rlos27sapoiybwthafrhz7m0equyc.lambda-url.us-east-1.on.aws"
+        }
+      },
+      "webApp" : {
+        "url" : "http://daiara-web-app.s3-website.eu-central-1.amazonaws.com"
+      }
+    }
+  }
+}
