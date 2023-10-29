@@ -1,4 +1,4 @@
-# Vitru app
+# Screen app
 This repository contains the source code of the app we run in our screen devices.
 
 ## Local setup
